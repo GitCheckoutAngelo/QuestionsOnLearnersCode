@@ -1,0 +1,50 @@
+// @keyframes FadeIn { 
+//     0% 10%{
+//       opacity: 0;
+//       transform: scale(2);
+//     }
+//     65% {
+//       opacity: 1;
+//       transform: scale(1.05);
+//     }
+//     85% {
+//       transform: scale(1);
+//     }
+//     100%
+// }
+
+@-webkit-keyframes FadeIn {
+    0% { 
+        opacity: 0;
+        -webkit-transform: scale(1.4); 
+    }
+    20% { 
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+    46% { 
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.1;
+    }
+ }
+
+.new-quiz {
+    overflow: visible;
+}
+
+.new-quiz path {
+    float: left;
+    margin: 20px;
+
+    animation: FadeIn 1.8s infinite;
+    animation-fill-mode: both;
+  }
+
+@for $i from 1 through 4 {
+    .new-quiz path:nth-child(#{$i}n) {
+        animation-delay: #{$i * 0.1}s;
+    }
+}
+

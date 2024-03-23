@@ -1,0 +1,12 @@
+{
+    "SERVER": {
+        "BASE_URL": "https://qlc-part-4-project.azurewebsites.net/api/",
+        "RESOURCE": {
+            "USER_ENDPOINT": "user/",
+            "QUIZ_ENDPOINT": "quiz/",
+            "PROGRAM_ENDPOINT": "program/",
+            "SURVEY_ENDPOINT": "survey/",
+            "FEEDBACK_ENDPOINT": "feedback/"
+        }
+    }
+}
