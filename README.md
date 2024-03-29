@@ -1,8 +1,3 @@
-# Questions on Learners Code
+# App Demo
 
-npm i
-npm run dev
-
-"# QuestionsOnLearnersCode" 
-"# QuestionsOnLearnersCode" 
-"# QuestionsOnLearnersCode" 
+![Demo Clip](https://github.com/GitCheckoutAngelo/QuestionsOnLearnersCode/blob/main/assets/qlcs.gif)
