@@ -1,7 +1,4 @@
-# part-4-project-qlcs
-
-# In a new terminal:
-# Install node modules
+## Install node modules
 npm i
 
 # To run:
